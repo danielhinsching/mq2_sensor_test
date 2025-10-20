@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 // ==================== CONFIGURAÇÃO ====================
-const int GAS_ANALOG_PIN  = A0;   // Pino analógico do ESP-12F OAK
+const int GAS_ANALOG_PIN  = 33;   // Pino analógico do ESP-12F OAK
 const int GAS_DIGITAL_PIN = 14;   // Pino digital de alerta do MQ-2
 const int CALIBRATION_TIME = 10000; // 10s para calibrar no ar limpo
 
